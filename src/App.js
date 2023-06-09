@@ -1,8 +1,8 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import BookPage from './components/route/Books';
-import CategoryPage from './components/route/Categories';
+import Navbar from './components/Navbar.jsx';
+import BookPage from './components/route/Books.jsx';
+import CategoryPage from './components/route/Categories.jsx';
 
 function App() {
   return (
