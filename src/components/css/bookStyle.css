@@ -1,0 +1,33 @@
+.container {
+  background-color: #9cecec;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.book-list {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.book-form {
+  border-top: 1px solid black;
+  margin-top: 2%;
+}
+
+.book-form form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
