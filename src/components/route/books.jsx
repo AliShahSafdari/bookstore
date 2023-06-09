@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import BookList from './Booklist.jsx';
-import BookForm from './AddBook.jsx';
+import BookList from './booklist';
+import BookForm from './addBook';
 import '../css/bookStyle.css';
 
 const BookPage = () => {
