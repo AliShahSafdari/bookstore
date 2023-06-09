@@ -18,6 +18,8 @@ const Navbar = () => (
       <h1 className="site-title">Bookstroe CMS</h1>
       <ul>
         <CustomLink to="/">BOOKS</CustomLink>
+  <CustomLink to="/book">BOOK</CustomLink>
+
         <CustomLink to="/categories">CATEGORIES</CustomLink>
       </ul>
     </div>
