@@ -25,7 +25,7 @@
 
 # 📖  BookStor: React  <a name="BookStor"></a>
 
-**BookStor** is a setup of React,and add the logic of the books.
+**BookStor** is a setup of React, add the logic of the books add redux action and reducers.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -34,6 +34,7 @@
 - JavaScript
 - Linters
 - React
+- Redux Toolkit
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -56,7 +57,8 @@
 ### Key Features <a name="key-features"></a>
 
 -  This project make logic of show, add, and remove book.
--  This Project use React route 
+-  This Project use React route
+-  This Project use Redux Toolkit 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 - [Live Demo Link](Coming soon)
