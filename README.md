@@ -25,7 +25,7 @@
 
 # 📖  BookStor: React  <a name="BookStor"></a>
 
-**BookStor** is a setup of React, add the logic of the books add redux action and reducers.
+**BookStor** is a setup of React, add the logic of the books add redux action, reducers, and store.
 
 ## 🛠 Built With <a name="built-with"></a>
 
