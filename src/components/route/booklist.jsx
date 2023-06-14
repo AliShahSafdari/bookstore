@@ -1,17 +1,35 @@
 import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { removeBook } from '../../redux/books/booksSlice';
 import '../css/bookStyle.css';
 
-const BookList = (prop) => {
-  const { book, deleteBook } = prop;
+const BookList = () => {
+  const books = useSelector((state) => state.books.booksItem);
+  const dispatch = useDispatch();
   return (
-    <li key={book.id} className="book-list">
-      <h2>{book.title}</h2>
-      <p>
-        Author:
-        {book.author}
-      </p>
-      <button type="button" onClick={() => deleteBook(book.id)}>Remove</button>
-    </li>
+    <div>
+      <h3>Show books</h3>
+      <ul>
+        {books.map((book) => (
+          <li key={book.item_id}>
+            <p>
+              Title:
+              {book.title}
+            </p>
+            <p>
+              Author:
+              {book.author}
+            </p>
+            <p>
+              Category:
+              {book.category}
+            </p>
+            <button type="button" onClick={() => dispatch(removeBook({ item_id: book.item_id }))}>Remove</button>
+          </li>
+        ))}
+      </ul>
+    </div>
+
   );
 };
 export default BookList;
