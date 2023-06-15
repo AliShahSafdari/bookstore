@@ -8,9 +8,14 @@ const BookList = () => {
   useEffect(() => {
     dispatch(fetchData());
   }, [dispatch]);
+  const bookLists = books.booksItem.map((book, index) => ({
+    ...book,
+    item_id: book.item_id,
+    key: `${book.item_id}-${index}`,
+  }));
   return (
     <div>
-      {books.booksItem.map((book) => (
+      {bookLists.map((book) => (
         <div key={book.key}>
           <h4>
             Category :
