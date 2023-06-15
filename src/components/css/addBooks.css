@@ -58,10 +58,12 @@
 }
 
 .input-container button {
+  font-family: 'Roboto Slab', serif;
   background-color: #0290ff;
   border: none;
   width: 100%;
   color: #fff;
-  font-size: 20px;
+  font-size: 0.813rem;
+  font-weight: bold;
   border-radius: 3px;
 }

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { addBookToApi, addBook } from '../../redux/books/booksSlice';
 import '../css/addBooks.css';
+import '@fontsource/roboto-slab/latin-400.css';
 
 const AddBook = () => {
   const dispatch = useDispatch();
@@ -37,7 +38,7 @@ const AddBook = () => {
             <input value={author} type="text" id="name" placeholder="Author Name Here..." onChange={(e) => setAuthor(e.target.value)} />
           </div>
           <div className="input-container">
-            <button type="button" value="AddNew" onClick={handleSubmit}> AddBook </button>
+            <button type="button" value="AddNew" onClick={handleSubmit}> ADD BOOK </button>
           </div>
         </form>
       </div>

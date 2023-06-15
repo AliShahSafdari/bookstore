@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { removeBook, fetchData } from '../../redux/books/booksSlice';
 import '../css/booklist.css';
+import '@fontsource/roboto-slab/latin-400.css';
 
 const BookList = () => {
   const dispatch = useDispatch();
