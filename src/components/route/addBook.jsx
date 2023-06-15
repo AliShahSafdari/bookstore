@@ -2,6 +2,7 @@ import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { addBookToApi, addBook } from '../../redux/books/booksSlice';
+import '../css/addBooks.css';
 
 const AddBook = () => {
   const dispatch = useDispatch();
@@ -22,15 +23,25 @@ const AddBook = () => {
   };
 
   return (
-    <div className="book-form">
-      <div>
-        <h3>ADD NEW BOOK</h3>
+    <div className="FormContianer-all">
+      <div className="FormContianer">
+        <div className="title">
+          <h3>ADD NEW BOOK</h3>
+        </div>
+
+        <form className="form">
+          <div className="input-container">
+            <input value={title} type="text" id="title" placeholder="Book Title Here..." onChange={(e) => setTitle(e.target.value)} />
+          </div>
+          <div className="input-container">
+            <input value={author} type="text" id="name" placeholder="Author Name Here..." onChange={(e) => setAuthor(e.target.value)} />
+          </div>
+          <div className="input-container">
+            <button type="button" value="AddNew" onClick={handleSubmit}> AddBook </button>
+          </div>
+        </form>
       </div>
-      <form>
-        <input value={title} type="text" id="title" placeholder="Book Title Here..." onChange={(e) => setTitle(e.target.value)} />
-        <input value={author} type="text" id="name" placeholder="Author Name Here..." onChange={(e) => setAuthor(e.target.value)} />
-        <button type="button" value="AddNew" onClick={handleSubmit}> AddBook </button>
-      </form>
+
     </div>
   );
 };

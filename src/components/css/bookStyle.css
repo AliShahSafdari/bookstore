@@ -1,8 +1,13 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container {
-  background-color: #9cecec;
+  background-color: #eee;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  padding: 10px 0;
 }
 
 .container ul {

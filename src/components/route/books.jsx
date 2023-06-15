@@ -5,8 +5,8 @@ import '../css/bookStyle.css';
 
 const BookPage = () => (
   <div className="container">
-    <AddBook />
     <BookList />
+    <AddBook />
   </div>
 );
 export default BookPage;
