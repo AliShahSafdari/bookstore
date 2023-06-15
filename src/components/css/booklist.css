@@ -1,0 +1,173 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-all {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-item {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border: 1px solid #e7e8e8;
+  gap: 14px;
+  padding: 2rem 1.188rem 1.625rem 1.688rem;
+  margin: 2.313rem 0;
+}
+
+.container-item:nth-child(1) {
+  margin-top: 5rem;
+}
+
+.first-item {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-item {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.thrid-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.books-detail-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  text-align: left;
+}
+
+.category {
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+}
+
+.book-title {
+  margin: 0;
+}
+
+.book-author {
+  color: #0291ff;
+  font-size: 15px;
+}
+
+.books-detail-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  text-align: left;
+}
+
+.books-detail-2 button {
+  background-color: white;
+  border: none;
+  color: #57b5fd;
+}
+
+.books-detail-2 button:not(:first-child) {
+  border-left: 1px solid rgb(211, 210, 210);
+}
+
+.state-circle {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.regtangle {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regtangle svg {
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+
+.regtangle svg circle {
+  width: 150px;
+  height: 150px;
+  fill: none;
+  stroke-width: 5;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  stroke: #000;
+  transform: translate(5px, 5px);
+  -ms-transform: translate(5px, 5px);
+  -o-transform: translate(5px, 5px);
+  -webkit-transform: translate(5px, 5px);
+  -moz-transform: translate(5px, 5px);
+}
+
+.regtangle svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #0291ff;
+}
+
+.regtangle svg circle:nth-child(2) {
+  stroke-dashoffset: -99;
+  stroke: #f3f3f3;
+}
+
+.state-percentage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2px;
+}
+
+.percentage {
+  font-size: 32px;
+}
+
+.complete {
+  color: #666;
+}
+
+.chapeter-title {
+  color: #666;
+  font-size: 13px;
+  text-align: left;
+}
+
+.chapeter-content {
+  font-size: 16px;
+  text-align: left;
+}
+
+.upate {
+  background-color: #0291ff;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #fff;
+  width: 180px;
+  height: 40px;
+  padding: 0 5px;
+}
