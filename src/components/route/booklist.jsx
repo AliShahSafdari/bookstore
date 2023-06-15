@@ -1,35 +1,42 @@
-import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { removeBook } from '../../redux/books/booksSlice';
-import '../css/bookStyle.css';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { removeBook, fetchData } from '../../redux/books/booksSlice';
 
 const BookList = () => {
-  const books = useSelector((state) => state.books.booksItem);
   const dispatch = useDispatch();
+  const books = useSelector((state) => state.books);
+  useEffect(() => {
+    dispatch(fetchData());
+  }, [dispatch]);
+  const bookLists = books.booksItem.map((book, index) => ({
+    ...book,
+    item_id: book.item_id,
+    key: `${book.item_id}-${index}`,
+  }));
   return (
     <div>
-      <h3>Show books</h3>
-      <ul>
-        {books.map((book) => (
-          <li key={book.item_id}>
-            <p>
-              Title:
-              {book.title}
-            </p>
-            <p>
-              Author:
-              {book.author}
-            </p>
-            <p>
-              Category:
-              {book.category}
-            </p>
-            <button type="button" onClick={() => dispatch(removeBook({ item_id: book.item_id }))}>Remove</button>
-          </li>
-        ))}
-      </ul>
-    </div>
+      {bookLists.map((book) => (
+        <div key={book.key}>
+          <h4>
+            Category :
+            {book.category}
+          </h4>
+          <h2>
+            {' '}
+            Title :
+            {book.title}
+          </h2>
+          <p>
+            Author:
+            {' '}
+            {book.author}
+          </p>
+          <button type="button" id={book.item_id} onClick={() => dispatch(removeBook(book.item_id))}>Remove</button>
 
+        </div>
+      ))}
+    </div>
   );
 };
+
 export default BookList;

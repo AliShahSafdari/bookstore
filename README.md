@@ -9,10 +9,7 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
-
-- [🔭 Future Features](#future-features)
 
 - [🤝 Contributing](#contributing)
 
@@ -60,9 +57,8 @@
 -  This Project use React route
 -  This Project use Redux Toolkit 
 
-## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](Coming soon)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -102,6 +98,7 @@ To run the project, execute the following command:
 
 Open index.html using live server extension.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="getting-started"></a>
 
@@ -111,15 +108,21 @@ Open index.html using live server extension.
 - Twitter: [@AlishahSafdari](https://twitter.com/AlishahSafdari)
 - LinkedIn: [@ali-shah-safdari-010541215](https://www.linkedin.com/in/ali-shah-safdari-010541215/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] Use the React to better UI
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -129,9 +132,13 @@ Everybody is welcome to suggest changes in BookStore project .
 
 In order to do it, fork this repository, create a new branch and open a Pull Request from your branch
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="LICENSE"></a>
 
