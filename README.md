@@ -9,7 +9,6 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 
 - [🤝 Contributing](#contributing)
