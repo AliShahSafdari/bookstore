@@ -1,8 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-// import { act } from 'react-dom/test-utils';
-
 const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/lBC1u0w8Y5NTm74FEW9B/books/';
 
 const initialState = {
