@@ -56,3 +56,12 @@
   letter-spacing: -0.15px;
   color: #c4c4c4;
 }
+
+.input-container button {
+  background-color: #0290ff;
+  border: none;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 3px;
+}

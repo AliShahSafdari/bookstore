@@ -7,7 +7,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 
 .container-item {
@@ -17,17 +17,17 @@
   border: 1px solid #e7e8e8;
   gap: 14px;
   padding: 2rem 1.188rem 1.625rem 1.688rem;
-  margin: 2.313rem 0;
 }
 
 .container-item:nth-child(1) {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .first-item {
   flex: 2;
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .second-item {
@@ -36,6 +36,7 @@
   flex-direction: row;
   justify-content: center;
   gap: 20px;
+  border-right: 1px solid #e8e8e8;
 }
 
 .thrid-item {
@@ -43,13 +44,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 5px;
+  gap: 12px;
+  margin-left: 25px;
 }
 
 .books-detail-1 {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 3px;
   text-align: left;
 }
 
@@ -169,5 +171,6 @@
   color: #fff;
   width: 180px;
   height: 40px;
+  margin-top: 0.5rem;
   padding: 0 5px;
 }

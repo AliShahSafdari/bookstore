@@ -3,7 +3,7 @@
 }
 
 .container {
-  background-color: #eee;
+  background-color: #f5f6fa;
   display: flex;
   flex-direction: column;
   gap: 12px;
