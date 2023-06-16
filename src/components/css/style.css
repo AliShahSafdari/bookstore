@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;800&family=Roboto+Slab:wght@200;300;400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -7,20 +10,27 @@ body {
 }
 
 .nav {
-  background-color: #333;
-  color: white;
+  background-color: #fffefe;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
-  padding: 0 1rem;
+  padding: 0.4rem 5rem;
+  border-bottom: 1px solid #ccc;
 }
+
+.nav:hover { border: 1px solid #0291ff; }
 
 .nav-title {
   display: flex;
   flex-direction: row;
   gap: 20px;
   justify-content: space-between;
+}
+
+.site-title {
+  color: #0291ff;
+  font-size: 2rem;
 }
 
 .nav ul {
@@ -33,7 +43,7 @@ body {
 }
 
 .nav a {
-  color: inherit;
+  color: #777;
   text-decoration: none;
   height: 100%;
   display: flex;
@@ -41,14 +51,13 @@ body {
   padding: 0.25rem;
 }
 
-.site-title {
-  font-size: 2rem;
+.nav li.active a {
+  color: #000;
 }
 
-.nav li.active {
-  background-color: #555;
-}
-
-.nav li:hover {
-  background-color: #777;
+.wapper-icon {
+  display: flex;
+  align-items: center;
+  color: #0291ff;
+  font-size: 30px;
 }

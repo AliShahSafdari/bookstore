@@ -21,8 +21,8 @@ const Navbar = () => (
         <CustomLink to="/categories">CATEGORIES</CustomLink>
       </ul>
     </div>
-    <div>
-      <h3>Logo</h3>
+    <div className="wapper-icon">
+      <i className="uil uil-user-circle" />
     </div>
   </nav>
 );
