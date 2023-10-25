@@ -4,6 +4,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
 - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -114,7 +115,15 @@ Open index.html using live server extension.
 
 - [ ] Use the React to better UI
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="#"></a>
+
+- [Live Demo Link]( https://bookstore-vcok.onrender.com/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+                                                         
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -126,11 +135,11 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project just give it a star ⭐️ .
+If you like this project just give it a star ⭐️.
 
-Everybody is welcome to suggest changes in BookStore project .
+Everybody is welcome to suggest changes to the BookStore project.
 
-In order to do it, fork this repository, create a new branch and open a Pull Request from your branch
+In order to do it, fork this repository, create a new branch, and open a Pull Request from your branch
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
